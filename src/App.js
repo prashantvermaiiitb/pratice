@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React {process.env.REACT_APP_NOT_SECRET_CODE}
         </a>
       </header>
     </div>
