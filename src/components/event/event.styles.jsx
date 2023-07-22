@@ -3,7 +3,8 @@ import { styled } from "styled-components";
 export const EventDiv = styled.div`
   padding: 5px;
   list-style: none;
-  background-color: ${({ highlight }) => (highlight ? "#cacaca" : "none")};
+  background-color: ${({ highlight }) =>
+    Boolean(highlight) ? "#cacaca" : "none"};
   display: "flex";
 `;
 

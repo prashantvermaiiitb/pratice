@@ -5,7 +5,7 @@ import Event from "../event/event.jsx";
 import { OrganiserList } from "./organiser.styles.jsx";
 import SearchBox from "../search/search.component.jsx";
 
-const highlight = 12;
+const highlight = "12";
 
 const Organiser = ({ eventToHightLight = highlight }) => {
   const [data, setData] = useState([]);

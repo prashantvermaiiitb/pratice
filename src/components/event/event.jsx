@@ -13,7 +13,7 @@ import {
  */
 const Event = ({ eventToHightLight, item: { id, name, children } }) => {
   //true or false will decide what to show on the screen + or -
-  const [isCollapsed, setIsCollapsed] = useState(false);
+  const [isCollapsed, setIsCollapsed] = useState(true);
   const hasItems = Array.isArray(children) && children.length > 0;
 
   const value = hasItems ? (isCollapsed ? "-" : "+") : "";
